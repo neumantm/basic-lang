@@ -5,7 +5,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="3efc97ff-fb97-4546-91b8-c87fbfedfd60" name="basic.language" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
   </languages>
   <imports>
     <import index="815c" ref="r:094d684c-3813-46f0-ba3e-34fe8f0d7992(basic.language.typesystem)" />
@@ -133,7 +133,7 @@
         <property id="8857111640020672227" name="value" index="1PwxrZ" />
       </concept>
       <concept id="8857111640020495146" name="basic.language.structure.BVariable" flags="ng" index="1PzecQ">
-        <child id="7540833626062637172" name="type" index="2ZrEhe" />
+        <child id="7540833626062637172" name="declaredType" index="2ZrEhe" />
         <child id="8857111640020565440" name="value" index="1Pzvns" />
       </concept>
       <concept id="8857111640020600868" name="basic.language.structure.BMinusExpression" flags="ng" index="1Pzg0S" />

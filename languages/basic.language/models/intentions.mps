@@ -273,7 +273,7 @@
                             <ref role="3cqZAo" node="1vcXQyryekA" resolve="it" />
                           </node>
                           <node concept="liA8E" id="1vcXQyryhpZ" role="2OqNvi">
-                            <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract():boolean" resolve="isAbstract" />
+                            <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract()" resolve="isAbstract" />
                           </node>
                         </node>
                       </node>

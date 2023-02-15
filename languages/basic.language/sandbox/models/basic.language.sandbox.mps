@@ -5,6 +5,7 @@
     <use id="3efc97ff-fb97-4546-91b8-c87fbfedfd60" name="basic.language" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="daf560b3-c43d-4961-902e-597c9554436f" name="test.language" version="0" />
+    <use id="92de1c23-d913-4aa4-a196-a4ae01ec2e8b" name="basic.language.io" version="0" />
   </languages>
   <imports />
   <registry>
@@ -31,6 +32,7 @@
       <concept id="7540833626061822558" name="basic.language.structure.BGreaterThanExpression" flags="ng" index="2Z6zp$" />
       <concept id="7540833626062111305" name="basic.language.structure.BLowerToExpression" flags="ng" index="2ZpETN" />
       <concept id="7540833626062748712" name="basic.language.structure.BIntegerType" flags="ng" index="2Zr10i" />
+      <concept id="8857111640020670638" name="basic.language.structure.BEqualsExpression" flags="ng" index="1Pwx2M" />
       <concept id="8857111640020672226" name="basic.language.structure.BStringLiteral" flags="ng" index="1PwxrY">
         <property id="8857111640020672227" name="value" index="1PwxrZ" />
       </concept>
@@ -38,6 +40,7 @@
         <child id="7540833626062637172" name="declaredType" index="2ZrEhe" />
         <child id="8857111640020565440" name="value" index="1Pzvns" />
       </concept>
+      <concept id="8857111640020496478" name="basic.language.structure.BEmptyStatement" flags="ng" index="1Pzfx2" />
       <concept id="8857111640020600874" name="basic.language.structure.BMulExpression" flags="ng" index="1Pzg0Q" />
       <concept id="8857111640020600868" name="basic.language.structure.BMinusExpression" flags="ng" index="1Pzg0S" />
       <concept id="8857111640020600952" name="basic.language.structure.BBinaryExpression" flags="ng" index="1Pzg1$">
@@ -51,6 +54,13 @@
       <concept id="8857111640020455050" name="basic.language.structure.BWorkbook" flags="ng" index="1PzOqm">
         <child id="8857111640020495151" name="content" index="1PzecN" />
       </concept>
+    </language>
+    <language id="92de1c23-d913-4aa4-a196-a4ae01ec2e8b" name="basic.language.io">
+      <concept id="2480427123198919717" name="basic.language.io.structure.BPrintStatement" flags="ng" index="23U3HQ">
+        <child id="2480427123199001638" name="expression" index="23UnHP" />
+      </concept>
+      <concept id="2480427123199143245" name="basic.language.io.structure.BDumpScope" flags="ng" index="23UP8u" />
+      <concept id="2480427123199151537" name="basic.language.io.structure.BInputExpression" flags="ng" index="23UVby" />
     </language>
   </registry>
   <node concept="1PzOqm" id="7FEM1KfpyGD">
@@ -170,8 +180,48 @@
       <property role="TrG5h" value="some name" />
     </node>
   </node>
-  <node concept="1PzOqm" id="1buLdY$OXbj">
+  <node concept="1PzOqm" id="6vYaSC$2oDc">
     <property role="TrG5h" value="Foo" />
+    <node concept="1PzecQ" id="6vYaSC$2oDy" role="1PzecN">
+      <property role="TrG5h" value="a" />
+      <node concept="1Pzvmx" id="6vYaSC$2oDM" role="1Pzvns">
+        <property role="1Pzvmy" value="123" />
+      </node>
+    </node>
+    <node concept="1PzecQ" id="6vYaSC$2oE6" role="1PzecN">
+      <property role="TrG5h" value="b" />
+      <node concept="1PwxrY" id="6vYaSC$2oEv" role="1Pzvns">
+        <property role="1PwxrZ" value="asd" />
+      </node>
+    </node>
+    <node concept="23U3HQ" id="5IsHf7il$f0" role="1PzecN">
+      <node concept="1PwxrY" id="5IsHf7il$fs" role="23UnHP">
+        <property role="1PwxrZ" value="Input please" />
+      </node>
+    </node>
+    <node concept="1PzecQ" id="5IsHf7ihD_X" role="1PzecN">
+      <property role="TrG5h" value="c" />
+      <node concept="23UVby" id="5IsHf7ihDAv" role="1Pzvns" />
+    </node>
+    <node concept="1PzecQ" id="5IsHf7il$ss" role="1PzecN">
+      <property role="TrG5h" value="d" />
+      <node concept="1Pwx2M" id="5IsHf7il$Hm" role="1Pzvns">
+        <node concept="1PwxrY" id="5IsHf7il_$w" role="1Pzg1B">
+          <property role="1PwxrZ" value="asd" />
+        </node>
+        <node concept="XOOaa" id="5IsHf7ilK4s" role="1Pzg1_">
+          <ref role="XOOa9" node="6vYaSC$2oE6" resolve="b" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Pzfx2" id="5IsHf7ihDz$" role="1PzecN" />
+    <node concept="23U3HQ" id="5IsHf7ihcAA" role="1PzecN">
+      <node concept="XOOaa" id="5IsHf7iheD8" role="23UnHP">
+        <ref role="XOOa9" node="6vYaSC$2oE6" resolve="b" />
+      </node>
+    </node>
+    <node concept="23UP8u" id="5IsHf7ihzeZ" role="1PzecN" />
+    <node concept="1Pzfx2" id="5IsHf7ihDzm" role="1PzecN" />
   </node>
 </model>
 

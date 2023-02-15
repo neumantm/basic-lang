@@ -35,7 +35,7 @@
         <property id="8857111640020672227" name="value" index="1PwxrZ" />
       </concept>
       <concept id="8857111640020495146" name="basic.language.structure.BVariable" flags="ng" index="1PzecQ">
-        <child id="7540833626062637172" name="type" index="2ZrEhe" />
+        <child id="7540833626062637172" name="declaredType" index="2ZrEhe" />
         <child id="8857111640020565440" name="value" index="1Pzvns" />
       </concept>
       <concept id="8857111640020600874" name="basic.language.structure.BMulExpression" flags="ng" index="1Pzg0Q" />
@@ -158,6 +158,9 @@
     <node concept="XOh6H" id="1vcXQyrxDO_" role="XOh5i">
       <property role="TrG5h" value="some name" />
     </node>
+  </node>
+  <node concept="1PzOqm" id="1buLdY$OXbj">
+    <property role="TrG5h" value="Foo" />
   </node>
 </model>
 

@@ -105,6 +105,17 @@
         </node>
       </node>
     </node>
+    <node concept="1PzecQ" id="6vYaSC$1zqR" role="1PzecN">
+      <property role="TrG5h" value="foo" />
+      <node concept="2Z6zp$" id="6vYaSC$1zr_" role="1Pzvns">
+        <node concept="XOOaa" id="6vYaSC$1zrD" role="1Pzg1B">
+          <ref role="XOOa9" node="3BjE0CtdbA1" resolve="x" />
+        </node>
+        <node concept="XOOaa" id="6vYaSC$1zrr" role="1Pzg1_">
+          <ref role="XOOa9" node="5TPyr2$PTsV" resolve="y" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="XOh6C" id="p58tcV_iLP">
     <property role="TrG5h" value="myTests" />

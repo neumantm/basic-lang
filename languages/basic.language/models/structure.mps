@@ -179,7 +179,8 @@
     <property role="EcuMT" value="8857111640020670639" />
     <property role="TrG5h" value="BNotEqualsExpression" />
     <property role="34LRSv" value="!=" />
-    <ref role="1TJDcQ" node="7FEM1KfpWxS" resolve="BBinaryExpression" />
+    <property role="3GE5qa" value="expr.binary" />
+    <ref role="1TJDcQ" node="6yAr3FnKdKR" resolve="BBinaryComparisonExpression" />
   </node>
   <node concept="1TIwiD" id="7FEM1KfqdVy">
     <property role="EcuMT" value="8857111640020672226" />

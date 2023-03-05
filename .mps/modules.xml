@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/basic.language.dumpScope/basic.language.dumpScope.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/basic.language.generalToString/basic.language.generalToString.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/basic.language.io/basic.language.io.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/basic.language/basic.language.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/basic.language/sandbox/basic.language.sandbox.msd" folder="" />

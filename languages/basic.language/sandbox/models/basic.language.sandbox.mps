@@ -6,7 +6,6 @@
     <use id="92de1c23-d913-4aa4-a196-a4ae01ec2e8b" name="basic.language.io" version="0" />
     <use id="5c45fcc5-be5a-4e1a-9d0a-f9d1859d878e" name="basic.language.dumpScope" version="0" />
     <use id="7b7f9df1-ae16-4fac-9779-bf143780e13a" name="basic.language.generalToString" version="0" />
-    <engage id="4743bff5-cc1e-4989-b409-05b508d63afe" name="basic.language.toAlfi" />
   </languages>
   <imports />
   <registry>
